@@ -10,7 +10,13 @@
 
 ## 📦 安装方法
 
-1. 安装浏览器扩展：[Tampermonkey 油猴插件](https://www.tampermonkey.net/)
-2. 粘贴脚本
-3. 设定api key和模型名称（默认使用Gemini）
+1. 安装浏览器扩展：[Tampermonkey 油猴插件](https://www.tampermonkey.net/)  
+2. 安装或粘贴脚本到油猴插件中  
+3. 配置以下参数（脚本顶部可修改）：
+
+| 参数       | 说明                                           | 默认值      |
+|------------|------------------------------------------------|-------------|
+| `api_key`      | 你的 API Key（用于调用大语言模型）            | *必填*      |
+| `model_name`    | 模型名称，与你的 API Key 对应（如 `gemini-pro`、`gpt-4` 等） | *必填*      |
+| `work_id`  | 接口类型切换开关：<br> `02` = Gemini（默认）<br> `03` = OpenAI | `02`        |
 
